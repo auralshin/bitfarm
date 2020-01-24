@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>BITFARM</title>
-	<link rel="shortcut icon" href="#">
+	<link rel="shortcut icon" href="./img/logo.ico">
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
 	<!--bootstrap added to the Dapp-->
@@ -23,8 +23,103 @@
 
 </head>
 
-<body>
 
+	<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
+    
+		<header>
+	
+			<nav class="navbar navbar-fixed-top">
+	
+				<div class="container-fluid">
+	
+					<div class="vesco-nav-wrapper">
+	
+						<div class="navbar-header">
+	
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#vesco-menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+						   </button>
+	
+							<a class="navbar-brand" href="#home">
+								<img style="position:absolute;left:1100px; top:10px;" src="./img/Webp.net-resizeimage.png" alt="logo">
+							</a>
+						</div>
+	
+						<div class="collapse navbar-collapse" id="vesco-menu">
+							<ul class="nav navbar-nav">
+								<li><a class="smooth-scroll" href="#home">BITFARM</a></li>
+								<li><a class="smooth-scroll" href="#about">About</a></li>
+								<li><a class="smooth-scroll" href="#services">Locality</a></li>
+								<li><a class="smooth-scroll" href="#team">crops</a></li>
+								<li><a class="smooth-scroll" href="#work">record</a></li>
+								<li><a class="smooth-scroll" href="#contact">Contact Us</a></li>
+							</ul>
+						</div>
+					
+					</div>
+	
+				</div>
+			</nav>
+	
+		</header>
+	
+		<!-- Home -->
+		<section id="home">
+	
+			<div id="home-cover" class="bg-parallax animated fadeIn">
+	
+				<div id="home-content-box">
+	
+					<div id="home-content-box-inner" class="text-center">
+	
+						<div id="home-heading" class="animated zoomIn">
+							<h3>                           BITFARM                            </h3>
+						</div>
+						<div id="home-para" >
+							<p>We are a Blockchain based </p>
+						</div>
+	
+					</div>
+	
+				</div>
+	
+			</div>
+	
+	
+		</section>
+	
+		<!--other section to be futher added-->
+
+		<section id="content">
+			<h4 style="color: black;">Public Id : <span class="white"><span id="SenderBalance"></span> </h4>
+  
+			<div class="btn-group" id="form-selector" align="center">
+				
+				<button type="button" class="btn1 btn-selector active" id="sign-up-btn">Farmer</button>
+				<button type="button" class="btn1 btn-selector" id="log-in-btn">Quality Testing</button>
+				<button type="button" class="btn1 btn-selector" id="payments-btn">Customer</button>
+				<button type="button" class="btn1 btn-selector" id="finance-btn">Micro-Finance</button>
+				
+			</div>
+			<div class="form" id="sign-up-form">
+				<h2 class="form-title">Enter Details</h2>
+				<input type="text" class="input-std" id="fid" placeholder="Farmer Id">
+				<input type="text" class="input-std" id="fname" placeholder="Farmers Name">
+				<input type="text" class="input-std" id="loc" placeholder="Location">
+				<input type="text" class="input-std" id="crop" placeholder="Crop Name">
+				<input type="text" class="input-std" id="contact" placeholder="Phone">
+				<input type="text" class="input-std" id="quantity" placeholder="Quantity">
+				<input type="text" class="input-std" id="exprice" placeholder="Expected Price">
+				<button type="button" class="btn-submit" id="setvalue" onclick="set()">Submit Details!</button>
+			<span id="status"></span>
+			</div>
+				</div>
+
+		</section>
+	</body>
 
 </body>
 
