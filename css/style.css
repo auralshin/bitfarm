@@ -170,13 +170,14 @@ input:focus {
 }
 
 .btn-submit {
-	width: 100%;
+	width: 95%;
 	font-size: 30px;
 	padding: 11px 19px;
-	border-radius: 6px;
+	border-radius: 12px;
 	border: 2px solid #cccccc;
 	cursor: pointer;
-	 background-color: #4CAF50;
+   background-color: #4CAF50;
+  
 }
 
 .btn-submit1 {
