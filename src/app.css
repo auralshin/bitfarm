@@ -60,7 +60,7 @@ body {
   padding: 7px 15px;
   font-size: 26px;
   line-height: 1.428571429;
-  border-radius: 4px;
+  border-radius: 8px;
   margin-left: -5px;
 }
 
@@ -158,7 +158,8 @@ input:focus {
 .input-std {
 	width: 95.5%;
 	font-size: 18px;
-	display: inline-block;
+  display: inline-block;
+  border-radius: 8px;
 }
 
 .input-half {
@@ -175,10 +176,24 @@ input:focus {
 	width: 100%;
 	font-size: 30px;
 	padding: 11px 19px;
-	border-radius: 6px;
+	border-radius: 8px;
 	border: 2px solid #cccccc;
 	cursor: pointer;
-	 background-color: #4CAF50;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+   background-color: #4CAF50;
+
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.btn-submit:hover {background-color: #3e8e41}
+
+.btn-submit:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .btn-submit1 {
@@ -222,7 +237,7 @@ input:focus {
 
 h1,h4{
 text-align: center;
-color:white;
+color: floralwhite;
 
 }
 

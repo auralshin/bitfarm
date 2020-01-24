@@ -108,6 +108,7 @@ h3 {
 #about-content-box-inner {
   display: table-cell;
   vertical-align: middle;
+  padding-top: 180px;
 }
 
 #about .content-title h3 {
