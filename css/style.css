@@ -343,3 +343,8 @@ color:white;
   border-top-left-radius: 0;
 
 }
+
+#about{
+  background-image: url(../img/agri-farmers.jpg);
+  background-size: cover;
+}
