@@ -84,6 +84,14 @@ h3 {
     color: #34c6d3;
 }
 
+
+  #about {
+    color: rgb(242, 124, 14);
+    margin: 30px 15px 30px 15px;
+    font-size: 50px;
+    font-weight: 700;
+  }
+
 #form{
     background-image: url(../img/agri-farmers.jpg);
     background-size: cover;
@@ -332,4 +340,5 @@ color:white;
 .btn-group .btn:last-child:not(:first-child) {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
+
 }
