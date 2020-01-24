@@ -48,6 +48,29 @@
 
 
 	<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAPg4noBHXi-etnrkTXF0CqkAIDP_w0QZ0",
+    authDomain: "bitfarm-eab1a.firebaseapp.com",
+    databaseURL: "https://bitfarm-eab1a.firebaseio.com",
+    projectId: "bitfarm-eab1a",
+    storageBucket: "bitfarm-eab1a.appspot.com",
+    messagingSenderId: "702495628723",
+    appId: "1:702495628723:web:eac5b7b5f5435be3e7bfc6",
+    measurementId: "G-KQ6ZGBVS4C"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
     
 		<header>
 	
@@ -113,42 +136,57 @@
 	
 		<!--other section to be futher added-->
 
-		<section id="record">
-			<h4 style="color: rgb(255, 255, 255);">Public Id : <span class="white"><span id="SenderBalance"></span> </h4>
-  
-		<section id="form">
-			<h4 style="color: rgb(255, 255, 255);font-size: xx-large;font-weight: 900;">Public Id : <span class="white"><span id="SenderBalance"></span> </h4>;
-			<div class="btn-group" id="form-selector" align="center">
-				
-				<button type="button" class="btn1 btn-selector active" id="sign-up-btn">Farmer</button>
-				<button type="button" class="btn1 btn-selector" id="log-in-btn">Quality Testing</button>
-   				<button type="button" class="btn1 btn-selector" id="payments-btn">Customer</button>
-				<button type="button" class="btn1 btn-selector" id="finance-btn">Farm Funding</button>
-				
-			</div>
-			<div class="form" id="sign-up-form">
-				<h2 class="form-title">Enter Details</h2>
-				<input type="text" class="input-std" id="fid" placeholder="Farmer Id">
-				<input type="text" class="input-std" id="fname" placeholder="Farmers Name">
-				<input type="text" class="input-std" id="loc" placeholder="Location">
-				<input type="text" class="input-std" id="crop" placeholder="Crop Name">
-				<input type="text" class="input-std" id="contact" placeholder="Phone">
-				<input type="text" class="input-std" id="quantity" placeholder="Quantity">
-				<input type="text" class="input-std" id="exprice" placeholder="Expected Price">
-				<button type="button" class="btn-submit" id="setvalue" onclick="set()">Submit Details!</button>
-			<span id="status"></span>
-			</div>
-				</div>
+		<section id="about">
 
-		</section>
-
-		<section id="about"> 
-			
-			 
-		</section>
+            <!-- About right side with diagonal BG parallax -->
+            <div id="about-bg-diagonal" class="bg-parallax"></div>
+    
+            <!-- About left side with content -->
+            <div class="container">
+    
+                <div class="row">
+    
+                    <div class="col-md-4">
+    
+                        <div id="about-content-box">
+    
+                            <div id="about-content-box-outer">
+    
+                                <div id="about-content-box-inner">
+    
+                                    <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                        <h3> About US</h3>
+                                        <div class="content-title-underline"></div>
+                                    </div>
+    
+                                    <div id="about-desc" class="wow animated fadeInDown" data-wow-duration=".5s" data-wow-delay=".1s">
+                                        <p><!--raj add description--> </p>
+                                    </div>
+    
+                                    <div id="about-btn" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+    
+                                        <a class="btn btn-lg btn-general btn-blue smooth-scroll" href="./src/index.html" target="_blank"role="button" title="View Work"> Work </a>
+    
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+    
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+        </section>
 		<footer>
 		</footer>
 		<script src="./js/jquery.js"></script>
+		<script src="./js/jQuery.js"></script>
 
 		<!-- bootstrap JS -->
 		<script src="./js/bootstrap/bootstrap.min.js"></script>
