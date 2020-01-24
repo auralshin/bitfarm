@@ -348,3 +348,79 @@ color:white;
   background-image: url(../img/agri-farmers.jpg);
   background-size: cover;
 }
+
+.btn-submit:focus {
+	outline: none;
+}
+
+#sign-up {
+	background-color: #5EB320;
+}
+
+#log-in {
+	background-color: #1893A3;
+}
+
+#remember-me-wrapper {
+	position: relative;
+	height: 30px;
+}
+
+#payments {
+	background-color: #B33030;
+}
+
+#cvc {
+	float: none;
+}
+
+#log-in-form, #payments-form {
+	display: none;
+}
+
+h1,h4{
+text-align: center;
+color:white;
+
+}
+
+.table{
+	text-align: center;
+}
+
+.white {
+  color: white;
+  
+ }
+ 
+ 
+ .black {
+	color : black; 
+	font-size : 18px;
+ }
+ 
+ .blockclass {
+	 color : black; 
+	font-size : 30px;
+ }
+
+.logs {
+  background-color: black;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  margin: 0px;
+}
+
+.nav-tabs {
+  margin-bottom: 0;
+}
