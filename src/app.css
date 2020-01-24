@@ -3,7 +3,8 @@
 html {
 	width: 100%;
 	
-  background-image: url("Images/background.jpg");
+  background-image: url("../img/agri-farmers.jpg");
+  background-size: cover;
   font-family: 'HelveticaNeue-Light', Helvetica;
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
