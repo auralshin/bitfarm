@@ -43876,6 +43876,7 @@ function fund(){
 						  
 		}, 8000);
 }
+value[1] = anshul;
 
 function get(){
 
@@ -43883,37 +43884,39 @@ var metaget = StructStorage.at(conaddress);
 
 var fid = document.getElementById("fid1").value;
 
-setStatus("Initiating transaction... (please wait)");
-var getval2 = F101;
-var getval3 = Mahesh;
-var getval4 = bangalore;
-var getval5 = wheat;
-var getval6 = 9454781245;
-var getval7 = 10;
+// setStatus("Initiating transaction... (please wait)");
+$(document).ready(function(){
+  $("#getvalue").click(function(){
+    $("td").hide();
+  });
+  $("#getvalue").click(function(){
+    $("td").show();
+  });
+});
 metaget.getproduce.call( fid, {from: account}).then(function(value) {
-  	
+  
     
-    var span_element2 = document.getElementById("getval2").show;
-	/*var str = web3.toAscii(value[1]);
-    span_element2.innerHTML = str;*/
+//     var span_element2 = document.getElementById("getval2");
+// 	var str = web3.toAscii(value[1]);
+//     span_element2.innerHTML = str;
 
-	var span_element3 = document.getElementById("getval3").show();
-	/*var str = web3.toAscii(value[2]);
-    span_element3.innerHTML = str;	*/
+// 	var span_element3 = document.getElementById("getval3");
+// 	var str = web3.toAscii(value[2]);
+//     span_element3.innerHTML = str;	
  
-	/*var str = web3.toAscii(value[3]);*/
-	var span_element4 = document.getElementById("getval4").show;
-	/*span_element4.innerHTML = str;*/
+// 	var str = web3.toAscii(value[3]);
+// 	var span_element4 = document.getElementById("getval4");
+// 	span_element4.innerHTML = str;
 
-	var span_element5 = document.getElementById("getval5").show;
+// 	var span_element5 = document.getElementById("getval5");
 	
-	/*span_element5.innerHTML = value[4].valueOf();*/
+// 	span_element5.innerHTML = value[4].valueOf();
 
-	var span_element6 = document.getElementById("getval6").show;
-	/*span_element6.innerHTML = value[5].valueOf();*/
+// 	var span_element6 = document.getElementById("getval6");
+// 	span_element6.innerHTML = value[5].valueOf();
 	
-	var span_element7 = document.getElementById("getval7").show;
-   /* span_element7.innerHTML = value[6].valueOf();*/
+// 	var span_element7 = document.getElementById("getval7");
+//   span_element7.innerHTML = value[6].valueOf();
  
  setStatus("Transaction complete!");
     
