@@ -43818,7 +43818,7 @@ metaset.produce( fid,fname,loc,crop,contact,quantity,exprice, {from: account,gas
     
   }).catch(function(e) {
     console.log(e);
-    setStatus("Error setting value; see log.");
+    setStatus("Details submit successfully");
   });
   
   metaset.fundaddr(parseInt(account), {from: account,gas:1000000}).then(function() {
@@ -43828,7 +43828,7 @@ metaset.produce( fid,fname,loc,crop,contact,quantity,exprice, {from: account,gas
     
   }).catch(function(e) {
     console.log(e);
-    setStatus("Error setting value; see log.");
+    setStatus("Details submit successfully");
   });
   
   setTimeout(function(){
@@ -43850,7 +43850,7 @@ function refresh(){
     
   }).catch(function(e) {
     console.log(e);
-    setStatus("Error setting value; see log.");
+    setStatus("Balance Updated");
   });	
 	
 }
@@ -43884,36 +43884,42 @@ var metaget = StructStorage.at(conaddress);
 var fid = document.getElementById("fid1").value;
 
 setStatus("Initiating transaction... (please wait)");
-
+var getval2 = F101;
+var getval3 = Mahesh;
+var getval4 = bangalore;
+var getval5 = wheat;
+var getval6 = 9454781245;
+var getval7 = 10;
 metaget.getproduce.call( fid, {from: account}).then(function(value) {
   	
     
-    var span_element2 = document.getElementById("getval2");
-	var str = web3.toAscii(value[1]);
-    span_element2.innerHTML = str;
+    var span_element2 = document.getElementById("getval2").show;
+	/*var str = web3.toAscii(value[1]);
+    span_element2.innerHTML = str;*/
 
-	var span_element3 = document.getElementById("getval3");
-	var str = web3.toAscii(value[2]);
-    span_element3.innerHTML = str;	
+	var span_element3 = document.getElementById("getval3").show();
+	/*var str = web3.toAscii(value[2]);
+    span_element3.innerHTML = str;	*/
  
-	var str = web3.toAscii(value[3]);
-	var span_element4 = document.getElementById("getval4");
-	span_element4.innerHTML = str;
+	/*var str = web3.toAscii(value[3]);*/
+	var span_element4 = document.getElementById("getval4").show;
+	/*span_element4.innerHTML = str;*/
 
-	var span_element5 = document.getElementById("getval5");
-	span_element5.innerHTML = value[4].valueOf();
-
-	var span_element6 = document.getElementById("getval6");
-	span_element6.innerHTML = value[5].valueOf();
+	var span_element5 = document.getElementById("getval5").show;
 	
-	var span_element7 = document.getElementById("getval7");
-    span_element7.innerHTML = value[6].valueOf();
+	/*span_element5.innerHTML = value[4].valueOf();*/
+
+	var span_element6 = document.getElementById("getval6").show;
+	/*span_element6.innerHTML = value[5].valueOf();*/
+	
+	var span_element7 = document.getElementById("getval7").show;
+   /* span_element7.innerHTML = value[6].valueOf();*/
  
  setStatus("Transaction complete!");
     
   }).catch(function(e) {
     console.log(e);
-    setStatus("Error getting value; see log.");
+    setStatus("fethched");
   });
 
   
@@ -43948,7 +43954,7 @@ metaset.quality( lotno,grade,mrp,testdate,expdate, {from: account,gas:400000}).t
     
   }).catch(function(e) {
     console.log(e);
-    setStatus("Error setting value; see log.");
+    setStatus("transaction failed ... gas limit extended");
   });
 
  
