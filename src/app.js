@@ -43783,8 +43783,6 @@ $("#finance-btn").click(function() {
  
 });
 
-
-
 var accounts;
 var account;
 var conaddress = "0xd204Db83470ac50bb81DC50f695E7F34E9Ace8C3";
@@ -43793,10 +43791,7 @@ function setStatus(message) {
   status.innerHTML = message;
 };
 
-
-
 function set(){
-
 
 var metaset = StructStorage.at(conaddress);
 
@@ -43841,10 +43836,6 @@ metaset.produce( fid,fname,loc,crop,contact,quantity,exprice, {from: account,gas
 			refresh();
 						  
 		}, 8000);
-  
- 
-  
-  
 };
 
 function refresh(){
