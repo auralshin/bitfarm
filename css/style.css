@@ -130,3 +130,44 @@ h3 {
   background-position: center;
   background-attachment: fixed;
 }
+
+.btn-general {
+  border-width: 2px;
+  border-radius: 0;
+  padding: 12px 26px 12px 26px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-white {
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+.btn-white:hover,
+.btn-white:focus {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+.btn-blue {
+  border-color: #d3348b;
+  color: #d33491;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+  background-color: #d33471;
+  color: rgb(228, 141, 59);
+}
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 22px;
+  padding: 3px 15px;
+  border-radius: 0;
+  display: none;
+}
