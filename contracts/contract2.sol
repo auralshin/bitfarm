@@ -59,28 +59,4 @@ lot[] public l;
 
 
 
-function produce(bytes memory id, bytes32 name, bytes32 loc, bytes32 cr, uint256 con, uint q, uint pr) public{
-               
-        StructStorage.farmer memory fnew = farmer(id,name,loc,cr,con,q,pr);
-        f1[id] = fnew;
-        fm.push(fnew);
-        s++;
-  
-}
-    
- function getproduce(bytes memory j) public view returns(bytes memory,bytes32,bytes32,bytes32,uint256,uint,uint) {
-        return (f1[j].fid,f1[j].fname,f1[j].loc,f1[j].crop,f1[j].contact,f1[j].quantity,f1[j].exprice);
-    }
- function quality(bytes memory ll, bytes memory g, uint256 p, bytes32 tt, bytes32 e) public{
-    
-        StructStorage.lot memory lnew=lot(ll,g,p,tt,e);
-        l1[ll]=lnew;
-        l.push(lnew);
-        t++;
-  
- }  
- function getquality(bytes memory k) public view returns(bytes memory,bytes memory,uint,bytes32,bytes32) {
-     return(l1[k].lotno,l1[k].grade,l1[k].mrp,l1[k].testdate,l1[k].expdate);
-     
- }
-}
+
