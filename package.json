@@ -1,5 +1,5 @@
 {
-  "name": "nmit-hacks",
+  "name": "bitfarm",
   "version": "1.0.0",
   "description": "bitfarm",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/auralshin/nmit-hacks.git"
+    "url": "git+https://github.com/auralshin/bitfarm.git"
   },
   "keywords": [
     "bitfarm"
@@ -16,9 +16,9 @@
   "author": "auralshin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/auralshin/nmit-hacks/issues"
+    "url": "https://github.com/auralshin/bitfarm/issues"
   },
-  "homepage": "https://github.com/auralshin/nmit-hacks#readme",
+  "homepage": "https://github.com/auralshin/bitfarm#readme",
   "dependencies": {
     "truffle": "^5.1.9",
     "web3": "^1.2.5-rc.0"
