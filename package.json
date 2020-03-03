@@ -1,26 +1,22 @@
 {
   "name": "bitfarm",
-  "version": "1.0.0",
-  "description": "bitfarm",
-  "main": "index.js",
-  "scripts": {
+  "version": "2.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
     "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/auralshin/bitfarm.git"
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "bitfarm"
-  ],
-  "author": "auralshin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/auralshin/bitfarm/issues"
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
   },
-  "homepage": "https://github.com/auralshin/bitfarm#readme",
   "dependencies": {
-    "truffle": "^5.1.9",
-    "web3": "^1.2.5-rc.0"
+    "react": "^16.12.0",
+    "truffle": "^5.1.13"
   }
 }
