@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "react": "^16.12.0",
-    "truffle": "^5.1.13"
+    "truffle": "^5.1.15"
   }
 }

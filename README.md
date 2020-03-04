@@ -1,3 +1,3 @@
-# nmit-hacks
+# hackbout
 bitfarm
 

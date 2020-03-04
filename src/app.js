@@ -3675,7 +3675,7 @@ function(callback, receiver, originalName, fn, _, multiArgs) {
 
 function makeNodePromisifiedClosure(callback, receiver, _, fn, __, multiArgs) {
     var defaultThis = (function() {return this;})();
-    var method = callback;
+    var method = callback;  
     if (typeof method === "string") {
         callback = fn;
     }
