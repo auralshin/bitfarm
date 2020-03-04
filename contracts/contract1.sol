@@ -1,27 +1,23 @@
-pragma solidity ^0.6.1;
+pragma solidity ^0.5.0;
 
+contract Migrations {
+  address public owner;
+  uint public last_completed_migration;
 
+  modifier restricted() {
+    if (msg.sender == owner) _;
+  }
 
-contract MyContract ()
-{
-string firstname;
-string lastname;
-uint count;
-mapping (count => people);
-struct people() public{
+  constructor() public{
+    owner = msg.sender;
+  }
 
+  function setCompleted (uint completed) restricted public{
+    last_completed_migration = completed;
+  }
 
+  function upgrade(address new_address) restricted public{
+    Migrations upgraded = Migrations(new_address);
+    upgraded.setCompleted(last_completed_migration);
+  }
 }
-
-}
-
- contract MyContracts()
- { 
-      string firstname;
-      string lastname;
-      uint count;
-      struct people(){
-           
-      }
- }
-
