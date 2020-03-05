@@ -57,6 +57,8 @@ farmer[] public fm;
 mapping (bytes => lot) l1;
 lot[] public l;
 
+
+
 function produce(bytes memory id, bytes32 name, bytes32 loc, bytes32 cr, uint256 con, uint q, uint pr) public{
                
         StructStorage.farmer memory fnew = farmer(id,name,loc,cr,con,q,pr);
@@ -82,6 +84,4 @@ function produce(bytes memory id, bytes32 name, bytes32 loc, bytes32 cr, uint256
      
  }
 }
-
-
 
