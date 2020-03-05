@@ -35,5 +35,5 @@ Eventually, the Bitfarm will build a decentralized agro-market where the farmers
 
 # Video Explanation of Cmntracts
 
-[link](https://youtu.be/NmXIGfjlXCM)
+[link](https://youtu.be/NmXlGfjIXCM)
 
