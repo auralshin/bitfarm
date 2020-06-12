@@ -1,11 +1,11 @@
 # Bitfarm
 
-## What problems are we solving?
+## Problem with current Agriculture system
 
 An Agricultural Supply Chain tracks a farm product from the farmer to the consumer. Farmers in developing countries are heavily dependent on bank loans. Due to this heavy debt , farmers can't maintain a steady production of agriculture. Micro-finance can help these farmers out of debt.
 
 
-## Our solution to the problem:
+## Solution
 
 *Bitfarm* is a distributed market place for farmers to trade there produce directly with consumers. The consumer can check out the quality of produce based on previous year's sale record. Ensuring a transparent common place where farmers and consumer entract directly eliminating middle man in the process. To make the system loan proof we did implimented micro-finance in our digital market place. By this implimentation consumers can invest money in farmer's land, making concept of loan for farming obsolete as farmers can use investment for farming giving share of profit to consumers in produce or case as they wish. 
 
